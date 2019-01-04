@@ -1,0 +1,89 @@
+body {
+    background:#eeeeee;
+    font-family:'Montserrat', sans-serif;
+    text:#8f8d8e;
+}
+#mainNavbar {
+    font-size:1rem;
+    font-weight:100;
+}
+#mainNavbar .nav-link {
+    color:#8f8d8e;
+}
+#mainNavbar .nav-link:hover {
+    color:#ff9681;
+}
+#mainNavbar .navbar-brand {
+    color: #ff9681;
+    font-size: 2rem;
+    font-weight: 200;
+}
+#header {
+  color: #8f8d8e;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+#header span {
+  color: #ff9681;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: 'Covered By Your Grace', cursive;
+}
+h2 {
+  font-family:'Covered By Your Grace', cursive;
+  color:#ff9681;
+  font-size:3em;
+  letter-spacing:2px;
+}
+#recs h2 {
+  font-family:'Covered By Your Grace', cursive;
+  color:#ff9681;
+  font-size:3em;
+  letter-spacing:2px;
+}
+
+#expertise {
+  color: #8f8d8e;
+}
+
+#expertise h3 {
+  color: #8f8d8e;
+  letter-spacing: 2px;
+}
+#recs {
+  color: #8f8d8e;
+  font-size: 1em;
+}
+
+
+
+hr{
+  color: #8f8d8e;
+  max-width: 500 px;
+}
+h6 {
+  font-family:'Montserrat', sans-serif;
+  color:red;
+}
+
+
+
+.navbar.scrolled {
+  background: #6E7376;
+  transition: background 500ms;
+  color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
